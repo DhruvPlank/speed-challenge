@@ -22,7 +22,10 @@ MSE -
 | ![Train Plot](/train-result.png) | ![Validation Plot](/valid-result.png) | ![Test Plot](/test-result.png) |
 
 Key points are tracked using a mask as shown in the sample gif. Rotation of camera is not considered.
-![Car KeyPts](/car-keypts.gif)
+
+| Screen Grab | Gif   |
+| ----------- | ----- |
+| ![stop](/stop.png) | ![Car KeyPts](/car-keypts.gif) |
 
 Referred to this [blog post](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html) for some guidance.
 <br>
