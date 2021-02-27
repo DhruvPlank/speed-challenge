@@ -1,6 +1,7 @@
 # speed challenge (closed)
 
-Goal :: Predict speed of car from dashcam video
+*Goal : : Predict speed of car from dashcam video*
+-----------
 
 Split up the data into train(90%) and validation(10%). 
 
