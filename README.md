@@ -3,21 +3,22 @@
 Goal :: Predict speed of car from dashcam video
 
 Split up the data into train(90%) and validation(10%). 
-<br>
-Estimated hf factor :: 7127.9783
+
+Estimated hf factor : : 7127.9783
+
 | variable | meaning |
 | -------- | ------- |
 |     h    | constant height of camera from the ground plane |
 |     f    | focal length for the given camera |
-<br>
+
 MSE -
  - Train - 3.7481
  - Validation - 0.9048
-<br>
 
-Train Plot | Validation Plot | Test Plot
- --- | --- 
-![Train Plot](/train-result.png) | ![Validation Plot](/valid-result.png) | ![Test Plot](/test-result.png)
+
+| Train Plot | Validation Plot | Test Plot |
+| ---------- | --------------- | --------- |
+| ![Train Plot](/train-result.png) | ![Validation Plot](/valid-result.png) | ![Test Plot](/test-result.png) |
 
 Key points are tracked using a mask as shown in the sample gif. Rotation of camera is not considered.
 ![Car KeyPts](/car-keypts.mp4)
