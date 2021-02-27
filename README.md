@@ -5,7 +5,7 @@
 
 Split up the data into train(90%) and validation(10%). 
 
-Estimated hf factor : : 7127.9783
+Estimated hf factor : : 7127.9783 
 
 | variable | meaning |
 | -------- | ------- |
@@ -27,3 +27,9 @@ Key points are tracked using a mask as shown in the sample gif. Rotation of came
 Referred to this [blog post](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html) for some guidance.
 <br>
 And this [paper](http://www.sc.ehu.es/ccwgrrom/transparencias/articulos-alumnos-doct-2002/edurne-barrenechea/00660838.pdf) for the assumptions made and the derivation they lead to.
+
+
+## To - Do
+
+[ ] = Add Test MSE
+
